@@ -1,4 +1,4 @@
-Net-Wigle version 0.03
+Net-Wigle
 ======================
 
 A query tool for wigle.net.  Started as something to do at Techcrunch Disrupt Hackathon on 2010-05-22.
@@ -15,6 +15,12 @@ To install this module type the following:
 DEPENDENCIES
 
 LWP::UserAgent
+Params::Validate
+
+DEVELOPER HOWTO
+
+   perl Makefile.PL
+   make dist
 
 COPYRIGHT AND LICENCE
 
